@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Boolean, Enum, TIMESTAMP,Numeric
-from database import Base 
+from app.database import Base 
 import enum as py_enum
 from sqlalchemy.sql import func
 import uuid

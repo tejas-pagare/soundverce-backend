@@ -1,7 +1,7 @@
 # crud.py
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
-from schemas import ArtistCreate
+from app.schemas import ArtistCreate
 from app.models import Artist
 
 

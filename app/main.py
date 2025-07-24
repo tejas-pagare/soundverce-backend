@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Depends
-from database import get_db
+from app.database import get_db
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.ext.asyncio import  AsyncSession
 
-from app.database import engine, Base
+
 from app.schemas import  Artist,ArtistCreate
 from app.crud import create_artist,get_artists
 
