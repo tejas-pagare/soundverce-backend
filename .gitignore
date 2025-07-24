@@ -1,0 +1,17 @@
+# Python build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Environment config
+.env
+.env.*
+
+
+
+
