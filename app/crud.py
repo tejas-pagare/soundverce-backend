@@ -2,7 +2,7 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 from schemas import ArtistCreate
-from models import Artist
+from app.models import Artist
 
 
 async def create_artist(db: AsyncSession, data: ArtistCreate):
